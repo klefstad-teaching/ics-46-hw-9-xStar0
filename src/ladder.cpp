@@ -41,6 +41,7 @@ bool edit_distance_within(const std::string& str1, const std::string& str2, int 
             if (char_diff > d) return false;
         }
         return true;
+	}
 }
 
 bool is_adjacent(const string& word1, const string& word2){
