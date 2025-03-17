@@ -131,6 +131,7 @@ void print_word_ladder(const vector<string>& ladder){
 	cout << endl;
 }
 
+#define my_assert(e) {cout << #e << ((e) ? " passed": " failed") << endl;}
 void verify_word_ladder(){
     set<string> word_list;
     load_words(word_list, "words.txt");
